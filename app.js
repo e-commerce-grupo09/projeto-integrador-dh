@@ -1,15 +1,16 @@
 const express = require("express");
+const path = require('path')
 
 const app = express();
 
-app.use(express.static(__dirname +('public')));
+app.use(express.static(path.join(__dirname, 'public')));
 
-servidor.get('/produto',(req, res)=>{
-    res.sendFile(__dirname + '/views/produto.html')
+app.get('/produtos',(req, res)=>{
+    return res.sendFile(__dirname + '/views/produtos.html')
 });
 
-servidor.get('/carrinho',(req, res)=>{
-    res.sendFile(__dirname + '/views/carrinho.html')
+app.get('/carrinho',(req, res)=>{
+    return res.sendFile(__dirname + '/views/carrinho.html')
 });
 
-servidor.listen(3000);
+app.listen(3000);
