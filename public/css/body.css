@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: center;
+}
+
+#banner-text{
+    padding: 50px ;
+}
