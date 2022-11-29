@@ -17,3 +17,7 @@ main {
 #banner-text{
     padding: 50px ;
 }
+
+#banner{
+    height: 100px;
+}
