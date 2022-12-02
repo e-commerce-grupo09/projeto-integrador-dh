@@ -12,5 +12,7 @@ app.get('/produtos',(req, res)=>{
 app.get('/carrinho',(req, res)=>{
     return res.sendFile(__dirname + '/views/carrinho.html')
 });
-
+app.get('/footer',(req, res)=>{
+    return res.sendFile(__dirname + '/views/footer.html')
+});
 app.listen(3000);
