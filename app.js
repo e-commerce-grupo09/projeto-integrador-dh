@@ -17,5 +17,9 @@ app.get('/home',(req, res)=>{
     return res.sendFile(__dirname + '/views/home.html')
 });
 
+app.get('/login',(req, res)=>{
+    return res.sendFile(__dirname + '/views/login.html')
+});
+
 
 app.listen(3000);
