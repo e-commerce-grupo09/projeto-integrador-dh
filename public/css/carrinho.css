@@ -9,7 +9,7 @@ body{
 }
 
 header {
-    background-color: floralwhite;
+    background-color: white;
     padding: 10px 50px;
     display: flex;
     align-items:center;
@@ -31,12 +31,13 @@ header #logo {
     width: 150px;
     height: 30px;
     border-radius: 5px;
-    background-color:coral;
+    background-color:red;
     border: none;
+    color: whitesmoke;
 }
 
 .btBuscar:hover{
-   color: bisque;
+   color: brown;
    transition: 0.5ms;
 }
 
@@ -45,16 +46,41 @@ header #logo {
     cursor: pointer;
     align-items:center;
     margin-left: 30px;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    text-align: center;
+    right: npx;
+    bottom: 5px;
 }
 
-.carrinho-login .compras{
-    width: 25px;
+.carrinho-login a{
+    text-decoration: none;
+    text-align: center;   
+    
+}
+
+.carrinho-login ul li{
+    display: inline;
+    list-style-type:none;
+    font-size: 10px;  
+}
+
+.carrinho-login img {
+    margin: 5px;
+    line-height: 10px;
+    
+}
+
+.carrinho-login .compras {
+    width: 28px;
+    height: 28px;
+    
 }
 
 .carrinho-login .usuario{
     width:30px;
+    height: 30px;
 }
+
 
 
 
