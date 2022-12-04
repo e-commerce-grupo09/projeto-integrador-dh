@@ -12,31 +12,51 @@ header {
     background-color: floralwhite;
     padding: 10px 50px;
     display: flex;
-    align-items: center;
-    justify-content:space-around;
-}
-
-header #logo {
-    width: 100px;
+    align-items:center;
     
 }
 
-header >nav >ul{
-    list-style: none;
-    display: flex;
-    justify-content:center;
+header #logo {
+    width: 100px;  
 }
 
-header .link-header{
-    display: flex;
-    text-decoration: none;
-    padding: 0px 10px;
-    color: black;
-    font-weight: bold;
-    justify-content:end;
+#input-buscar {
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
 }
 
-header .link-header:hover {
-    background-color: bisque;
-    transition: 0.5s;
+.btBuscar {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color:coral;
+    border: none;
 }
+
+.btBuscar:hover{
+   color: bisque;
+   transition: 0.5ms;
+}
+
+.carrinho-login {
+    display: flex;
+    cursor: pointer;
+    align-items:center;
+    margin-left: 30px;
+    justify-content: space-evenly;
+}
+
+.carrinho-login .compras{
+    width: 25px;
+}
+
+.carrinho-login .usuario{
+    width:30px;
+}
+
+
+
+
+
