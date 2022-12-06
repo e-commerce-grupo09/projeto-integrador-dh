@@ -5,6 +5,10 @@ const app = express();
 
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.get('/',(req, res)=>{
+    return res.sendFile(__dirname + '/views/home.html')
+});
+
 app.get('/produtos',(req, res)=>{
     return res.sendFile(__dirname + '/views/produtos.html')
 });
