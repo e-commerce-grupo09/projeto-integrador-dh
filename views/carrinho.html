@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/carrinho.css">
+    <link rel="stylesheet" href="/css/style.css">
     <title>Camisetas</title>
 </head>
+
 <body>
-    <header>
-        <a href="/produtos">
-            <img id="logo" src="/img/logo copa catar.png" alt="logo">
-        </a>
-        <input type="text" name="" id="input-buscar" placeholder="Escolha sua camiseta">
-        <button class="btBuscar" type="submit">Buscar</button>
+    <header class="cabecalho">
+        <div class="container">
+            <a href="/produtos">
+                <img id="logo" src="/img/logo copa catar.png" alt="logo">
+            </a>
+            <div>
+                <nav class="nav-header">
+                    <ul>
+                        <li><a href="/home" class="link-header">HOME</a></li>
+                        <li><a href="/produtos" class="link-header">PRODUTOS</a></li>
+                        <li><a href="#" class="link-header">CATEGORIAS</a></li>
+                        <li><a href="#" class="link-header">PROMOÇÕES</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
         <div class="carrinho-login">
             <a href="/carrinho">
                 <ul>
@@ -23,11 +36,63 @@
                 </ul>
             </a>
             <a href="/">
-            <ul>
-                <li><img class="usuario" src="/img/usuario.jfif" alt="login-usuario"></li>
-                <li>Login</li>
-            </ul>
+                <ul>
+                    <li><img class="usuario" src="/img/usuario.jfif" alt="login-usuario"></li>
+                    <li>Login</li>
+                </ul>
             </a>
         </div>
     </header>
+
+    <main>
+        
+        <!--SEÇÃO PRODUTO-->
+        <section class="secaoProdutos">
+            <div class="container">
+                <!--LISTA DE PRODUTO-->
+                <ul class="produtosLista">
+
+                      <!--ITEM DE PRODUTO-->
+                    
+                </ul>
+            </div>
+        </section>
+    </main>
+    <!--RODAPÉ-->
+    <footer class="rodape">
+        <!--SEÇÃO CARRINHO-->
+        <section class="carrinho">
+             <!--CABEÇALHO COM INFORMAÇÕES DO USUÁRIO-->
+            <header class="infoResumo">
+                <div class="container">
+                    <!--INFORMAÇÕES DE USUÁRIO-->
+                    <div class="infoUsuario">
+                        <h3>Minha sacola</h3>
+                        <p>Adicione mais produtos</p>
+                    </div>
+                    <!--INFORMAÇÕES DE PREÇO TOTAL-->
+                    <p class="infoPreco">Total: R$ 00.00</p>
+                </div>
+            </header>
+            <div class="container">
+                <!--RESUMO DE PEDIDOS-->
+                <div class="resumoPedido">
+                        <ul class="listaProdutos"></ul>
+                       
+                        <!--BOTÕES PARA FINALIZAR-->
+                    </div>
+                    <div class="btnFinalizaPedido">
+                        <button id="btn1" type="button"><a href="">Finalizar pedido</a></button>
+                        <button id="btn2" type="button"><a href="/produtos">Cancelar pedido</a></button>
+                    </div>
+            </div>
+        </section>
+    </footer>
+    <script src="./src/js/produtos.js"></script>pushadd
+    <script src="./src/js/script.js"></script>   
+    <script src=".app.js"></script>   
+    <script src=".index.js"></script>   
     
+</body>
+
+</html>
