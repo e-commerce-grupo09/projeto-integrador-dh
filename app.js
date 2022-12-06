@@ -13,4 +13,8 @@ app.get('/carrinho',(req, res)=>{
     return res.sendFile(__dirname + '/views/carrinho.html')
 });
 
+app.get('/login',(req, res)=>{
+    return res.sendFile(__dirname + '/views/login.html')
+});
+
 app.listen(3000);
