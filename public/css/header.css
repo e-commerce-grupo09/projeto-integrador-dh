@@ -9,7 +9,7 @@ body{
 }
 
 header {
-    background-color: floralwhite;
+    background-color: white;
     padding: 10px 50px;
     display: flex;
     align-items:baseline;
@@ -34,23 +34,24 @@ header input{
     padding: 10px;
     width: 300px;
     height: 25px;
+    box-sizing: content-box;
 }
 .btbuscar{
     font-size: 1.5rem;
     font-weight: lighter;
     border-style: none;
     padding: 10px;
-    background-color: green;
-    padding: 10px;
-    width: 200px;
+    width: 300px;
     height: 25px;
+    background-color: white;
 }
 
 button{
-    background-color: gray;
+    border-style: none;
     padding: 10px;
     width: 300px;
-    height: 50px;
+    height: 25px;
+    background-color: white;
 
 }
 
@@ -66,7 +67,7 @@ header .link-header{
     display: flex;
     text-decoration: none;
     padding: 0px 10px;
-    color: blue;
+    color: black;
     font-weight: lighter;
     justify-content:end;
 }

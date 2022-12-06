@@ -1,20 +1,77 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
-main {
+html {
+    height: 100%;
+}
+header input{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    border-style: none;
+    align-self: baseline;
+ 
+   
+}
+.btbuscar{
+    outline: none;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    border-style: none;
+    
+}
+
+button{
+    outline: none;
+    background-color: white;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+
+}
+
+header >nav >ul{
     list-style: none;
     display: flex;
-    justify-content: flex-start;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: center;
+    justify-content:center;
+    align-items:flex-end;
+
 }
 
+header .link-header{
+    display: flex;
+    text-decoration: none;
+    padding: 0px 10px;
+    color: black;
+    font-weight: bold;
+    justify-content:end;
+}
+
+#logo {
+    width: 100px;
+    
+}
+
+#capa {
+    width: 1450px;
+    height: 600px;
+}
+
+article >img{
+    width: 300px;
+    height: 200px;
+}
+body {
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
 .inicio{
+    text-align: center;
     display: flex;
     margin-top: 10px;
     flex-direction: column;
@@ -28,6 +85,7 @@ main {
 }
 
 .inicio img{
+    text-align: center;
     width: 100%;
     margin: 10px 20px;
     display: flex;
@@ -44,7 +102,7 @@ main {
 
 .oferta div{
     list-style: none;
-    border: 3px solid blue;
+    border: 3px solid black;
     border-radius: 8px;
     margin: 15px;
     width: 200px;
@@ -56,7 +114,7 @@ main {
 }
 
 .oferta div p{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     padding-top: 20px;
     margin: 5px;
