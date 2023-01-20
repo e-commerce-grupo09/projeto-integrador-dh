@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family= Montserrat: família= Montserrat:ital,wght@0,100;0,800;1,400 &família= Roboto:wght@100;700 & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'roboto', sans-serif;
+    background-image: linear-gradient(45deg, white, gray);
+}
+
+div{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    padding: 100px;
+    border-radius: 15px;
+    color: white;
+    height: 800px;
+}
+
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    width: 100%;
+}
+
+button{
+    background-color: dodgerblue;
+    padding: 15px;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+
+.cadastro{
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    left: 75%;
+    border-radius: 15px;
+    color: white;
+    padding: 100px;
+}
+
+body::before{
+    content: "";
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-image: url(/img/capa.webp);
+    filter: brightness(0.3);
+    background-size: cover;
+    z-index: -1;
+}

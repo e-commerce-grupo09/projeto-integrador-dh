@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family= Montserrat: família= Montserrat:ital,wght@0,100;0,800;1,400 &família= Roboto:wght@100;700 & display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'roboto', sans-serif;
+}
+
+header {
+    background-color:rgb(224, 232, 232);
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+    
+header section {
+    position: relative;
+}
+
+header section input {
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    border-radius: 15px;
+    border: black solid 1px;
+    padding: 10px;
+    width: 300px;
+    height: 25px;
+    box-sizing: content-box;
+}
+
+.lupa{
+    position: absolute;
+    height: 40px;
+    right: 0;
+    border-radius: 25px;
+}
+
+.logo{
+    width: 100px;
+    border-radius: 60px;
+}
+
+.btbuscar{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    border-style: none;
+    padding: 10px;
+    width: 300px;
+    height: 25px;
+    background-color: white;
+}
+
+button{
+    border-style: none;
+    width: 300px;
+    height: 25px;
+    background-color: white;
+
+}
+
+header >nav >ul{
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+}
+
+header .link-header{
+    display: flex;
+    text-decoration: none;
+    padding: 0px 10px;
+    color: black;
+    font-weight: lighter;
+    justify-content:end;
+}
+
+.carrinho {
+    object-fit: cover;
+    height: 30px;
+    padding-left: 20px;
+    align-items: baseline;
+}
+
+.login {
+    object-fit: cover;
+    height: 40px;
+}
+
+header .link-header:hover {
+    background-color: bisque;
+    transition: 0.5s;
+}
+
+.block-container #banner-text{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.texto-buscar {
+    display: flex;
+    justify-content:center;
+}
+
+.texto-buscar input{
+    font-size: 1rem;
+    font-weight: bold;
+    border-style: black;
+    padding: 20px;
+    margin-right: 10px;
+    width: 300px;
+    height: 25px;
+}
+
+.texto-buscar .btbuscar{
+    font-size: 1rem;
+    font-weight: lighter;
+    border-style: black;
+    padding: 10px;
+    background-color: green;
+    padding: 10px;
+    margin-bottom: 30px;
+    width: 100px;
+    height: 45px;
+
+}
+
+footer.geral {
+    background-color:rgb(224, 232, 232);
+    height: 500px;
+    padding: 100px;
+}
+
+div.container-main-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.p-footer {
+    font-size: 30px;
+    color: black;
+    padding-bottom: 20px;
+}
+    
+.input-footer {
+     width: 400px;
+    height: 30px;
+}
+
+.bt-footer {
+    width: 180px;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+
+
+.titulo {
+    color: black;
+    font-size: 1.7rem;
+    padding-bottom: 10px;
+    font-weight: lighter;
+}
+
+.itens {
+    color: black;
+    font-size: 1.2rem;
+    padding-bottom: 15px;
+    font-weight: lighter;
+}
+
+.container-footer {
+    padding-top: 50px;
+}

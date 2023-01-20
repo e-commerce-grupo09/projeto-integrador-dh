@@ -4,112 +4,163 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/header.css">
-    <title>Camisetas</title>
+    <link rel="stylesheet" href="/css/geral.css">
+    <link rel="stylesheet" href="/css/produtos.css">
+    <title>DH Sports</title>
 </head>
 <body>
     <header>
         <a href="/">
-            <img id="logo" src="/img/logo copa catar.png" alt="logo">
+            <img src="\img\logo-pi.jpeg" alt="Logo Hexa Sports" class="logo" >
          </a>
+         <section>
+             <input type="text" name="" id="texto-buscar" placeholder="Procurar">
+             <a href="/">
+             <img src="\img\lupa_buscar.jpg" alt="Buscar" class="lupa">
+             </a>
+        </section>
          <nav>
             <ul>
-                <li><a href="/views/home.html" class="link-header">HOME</a></li>
-                <li><a href="#" class="link-header">PRODUTOS</a></li>
-                <li><a href="#" class="link-header">CATEGORIAS</a></li>
-                <li><a href="#" class="link-header">PROMOÇÕES</a></li>
+                <li><a href="./" class="link-header">HOME</a></li>
+                <li><a href="./produtos" class="link-header">PRODUTOS</a></li>
+                <li><a href="./sac" class="link-header">FALE CONOSCO</a></li>
+                <li><a href="./login">
+                    <img src="/img/login.png" alt="login" class="login">
+                </a>
+                </li>
+                <li><a href="./carrinho">
+                    <img src="/img/bag.png" alt="carrinho" class="carrinho">
+                </a>
+                </li>
             </ul>
          </nav>
-    </header>
+        </header>
     <main>
-        <div class="block-container">
-            <img id="banner" src="/img/capa.webp" alt="Capa">
-            <h3 id="banner-text">Venha torcer com estilo!</h3>    
-        </div>
-        <div class="texto-buscar">
-            <input type="text" name="" id="" placeholder="Escolha sua camiseta">
-            <button class="btbuscar">Buscar</button>
-            <a href="/carrinho.html"></a>
-                <img src="" alt="">
-                <span>0</span>
-            </a>
-        </div>
-        <div class="container">
+        <aside class="left">
+                <button>Search more</button>
+            </header>
+         <section class="check-aside">
+            <p class="p-check">Filtro</p>
+            <p class="p-categorias">Categorias</p>
+            <div class="all">
+              <input type="checkbox" name="check1" class="check1">
+              <label for="check1">Mulher</label>
+            </div>
+            <div class="all">
+              <input type="checkbox" name="check1" class="check1">
+              <label for="check2">Homem</label>
+            </div>
+            <div class="all">
+             <input type="checkbox" name="check1" class="check1">
+             <label for="check3">Infantil</label>
+            </div>
+            <div class="all">
+             <input type="checkbox" name="check1" class="check1">
+             <label for="check4">Esportes</label>
+            </div>
+         </section>
+       </aside>
+        </header>
+        <section>
             <article class="camisas">
                 <img src="/img/espanha.jpg" alt="Camiseta Espanha">
                 <h2>Camiseta Espanha</h2>
-            <span>R$ 350,00</span>
+            <span class="preco">R$ 350,00</span>
             <a href="/">Ver mais</a>
-            <button>Add+</button>
+            <button>Gostei</button>
         </article>
         <article class="camisas">
             <img src="/img/argentina.webp" alt="Camiseta Argentina">
             <h2>Camiseta Argentina</h2>
-            <span>R$ 350,00</span>
+            <span class="preco">R$ 350,00</span>
             <a href="/">Ver mais</a>
-            <button>Add+</button>
-        </article>
-        <article class="camisas">
-            <img src="/img/holanda.webp" alt="Camiseta Holanda">
-            <h2>Camiseta Holanda</h2>
-            <span>R$ 350,00</span>
-            <a href="/">Ver mais</a>
-            <button>Add+</button>
+            <button>Gostei</button>
         </article>
         <article class="camisas">
             <img src="/img/alemanha.webp" alt="Camiseta Alemanha">
             <h2>Camiseta Alemanha</h2>
-            <span>R$ 350,00</span>
+            <span class="preco">R$ 350,00</span>
             <a href="/">Ver mais</a>
-            <button>Add+</button>
+            <button>Gostei</button>
         </article>
         <article class="camisas">
             <img src="/img/brasil.jfif" alt="Camiseta Brasil">
             <h2>Camiseta Brasil</h2>
-            <span>R$ 350,00</span>
+            <span class="preco">R$ 350,00</span>
             <a href="/">Ver mais</a>
-            <button>Add+</button>
+            <button>Gostei</button>
         </article>
         <article class="camisas">
             <img src="/img/Inglaterra.jfif" alt="Camiseta Inglaterra">
             <h2>Camiseta Inglaterra</h2>
-            <span>R$ 350,00</span>
+            <span class="preco">R$ 350,00</span>
             <a href="/">Ver mais</a>
-            <button>Add+</button>
+            <button>Gostei</button>
         </article>
         <article class="camisas">
             <img src="/img/uruguai.webp" alt="Camiseta Uruguai">
             <h2>Camiseta Uruguai</h2>
-            <span>R$ 350,00</span>
+            <span class="preco">R$ 350,00</span>
             <a href="/">Ver mais</a>
-            <button>Add+</button>
+            <button>Gostei</button>
         </article>
         <article class="camisas">
             <img src="/img/japão.jfif" alt="Camiseta Japão">
             <h2>Camiseta Japão</h2>
-            <span>R$ 350,00</span>
+            <span class="preco">R$ 350,00</span>
             <a href="/">Ver mais</a>
-            <button>Add+</button>
+            <button>Gostei</button>
         </article>
         <article class="camisas">
             <img src="/img/brasil.jfif" alt="Camiseta Brasil">
             <h2>Camiseta Brasil</h2>
-            <span>R$ 350,00</span>
+            <span class="preco">R$ 350,00</span>
             <a href="/">Ver mais</a>
-            <button>Add+</button>
+            <button>Gostei</button>
         </article>
         <article class="camisas">
             <img src="/img/Inglaterra.jfif" alt="Camiseta Inglaterra">
             <h2>Camiseta Inglaterra</h2>
-            <span>R$ 350,00</span>
+            <span class="preco">R$ 350,00</span>
             <a href="/">Ver mais</a>
-            <button>Add+</button>
+            <button>Gostei</button>
         </article>
-    </div>
+     </section>
+     <footer class="footer2">
+        <button class="botao-carregar">Carregar mais produtos</button>
+     </footer>
     </main>
     <footer>
-        <img src="/img/rodape-copa-2022.png" alt="seleções catar">
-        <span>Copyright camisetas 2022</span>
-    </footer>    
+        <footer class="geral">
+        <div class="container-main-footer">
+        <div class="container-footer">
+        <p class="p-footer">Cadastre-se para receber nossa newsletter</p>
+        <input type="text" name="news" class="input-footer">
+        <button class="bt-footer">Cadastrar</button>
+      </div>
+      <div>
+        <p class="titulo">Categorias</p>
+        <p class="itens">Homens</p>
+        <p  class="itens">Mulheres</p>
+        <p  class="itens">Infantil</p>
+        <p  class="itens">Esportes</p>
+        <p  class="itens">Acessórios</p>
+      </div>
+      <div>
+        <p class="titulo">Ajuda</p>
+        <p  class="itens">Centro de ajuda</p>
+        <p  class="itens">Status da compra</p>
+        <p  class="itens">Devoluções e garantias</p>
+        <p  class="itens">nosso Contato</p>
+      </div>
+      <div>
+        <p class="titulo">Sobre nós</p>
+        <p  class="itens">Sobre Nós</p>
+        <p  class="itens">Trabalhe conosco</p>
+        <p  class="itens">Tecnologia e inovação</p>
+        <p  class="itens">Conhea nossa hitória</p>
+      </div>
+      </div>
+    </footer>
 </body>
 </html>
