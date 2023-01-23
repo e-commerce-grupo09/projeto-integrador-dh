@@ -141,7 +141,7 @@ footer.geral {
 div.container-main-footer {
     display: flex;
     justify-content: space-between;
-    padding: 50px;
+    padding: 50px;  
 }
 
 .p-footer {
@@ -180,6 +180,7 @@ div.container-main-footer {
 .container-footer {
     padding-top: 50px;
 }
+
 
 
 
