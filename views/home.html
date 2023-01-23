@@ -1,55 +1,98 @@
-<!DOCTYPE html>
+<!DOCTYpE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/geral.css">
     <link rel="stylesheet" href="/css/home.css">
-    <title>Hexa Sports</title>
+    <title>DH Sports</title>
 </head>
-
 <body>
     <header>
         <a href="/">
-            <img src="\img\logo2.png" alt="Logo Hexa Sports" id="logo" width="64" height="64">
+            <img src="\img\logo-pi.jpeg" alt="Logo Hexa Sports" class="logo" >
          </a>
-         <input type="text" name="" id="texto-buscar" placeholder="O que você procura?">
-         <button>
-            <img src="\img\lupa_buscar.jpg" alt="Buscar" width="30" height="30">
-         </button>
+         <section>
+             <input type="text" name="" id="texto-buscar" placeholder="procurar">
+             <a href="/">
+             <img src="\img\lupa_buscar.jpg" alt="Buscar" class="lupa">
+             </a>
+        </section>
          <nav>
             <ul>
-                <li><a href="./home.html" class="link-header">HOME</a></li>
-                <li><a href="./produtos.html" class="link-header">PRODUTOS</a></li>
-                <li><a href="./login.html" class="link-header">LOGIN</a></li>
-                <li><a href="./carrinho.html" class="link-header">CARRINHO</a></li>
-                <li><a href="#" class="link-header">FALE CONOSCO</a></li>
+                <li><a href="./" class="link-header">HOME</a></li>
+                <li><a href="./produtos" class="link-header">PRODUTOS</a></li>
+                <li><a href="./sac" class="link-header">FALE CONOSCO</a></li>
+                <li><a href="./login">
+                    <img src="/img/login.png" alt="login" class="login">
+                </a>
+                </li>
+                <li><a href="./carrinho">
+                    <img src="/img/bag.png" alt="carrinho" class="carrinho">
+                </a>
+                </li>
             </ul>
          </nav>
-    </header>
+        </header>
     <main>
-      <section class="inicio">
-        <h1>COMPRE AQUI SUA CAMISA PARA A COPA DO MUNDO</h1>
-        <img src="/img/bg.jpg" alt="">
-      </section>
-      <section class="oferta">
-        <div>
-            <p>Pagamento em 10x sem juros</p>
-        </div>
-        <div>
-            <p>Frete grátis</p>
-        </div>
-        <div>
-            <p>Pagamento no boleto</p>
-        </div>
-        <div>
-            <p>Pagamento via Pix</p>
-        </div>
-      </section>
-    </main>
+        <section>
+        <p>produtos com até 60% off</p>
+        <p class="text">Fim de temporada especial,<br> Você ainda garante mais 20% extra comprando 2 artigos ou <br> 30% extra comprando três ou mais.</p>
+        </section>
+        <div class="block-container">
+            <img id="banner" src="/img/capa.webp" alt="Capa">
+            <p id="banner-text">Venha torcer com estilo!</p>   
+       </div>
+       <div class="container-promo">
+        <article class="icones">
+            <img class="img-pagamentos" src="/img/cartao.png" alt="cartao">
+            <p class="pagamentos">pagamento em até 10x sem juros</p>
+        </article>
+        <article>
+            <img class="img-pagamentos" src="/img/boleto.png" alt="boleto">
+            <p class="pagamentos">pagamento com boleto</p>
+        </article>
+        <article>
+            <img class="img-pagamentos" src="/img/pix.jpg" alt="pix">
+            <p class="pagamentos">pagamento via pix</p>
+        </article>
+        <article>
+            <img class="frete" src="/img/frete.jpg" alt="frete">
+            <p class="pagamentos"> Frete grátis para todo Brasil</p>
+        </article>
+    </div> 
     <footer>
-        <span>Copyright camisetas 2022 </span>
-    </footer>    
-</body>
+        <footer class="geral">
+        <div class="container-main-footer">
+        <div class="container-footer">
+        <p class="p-footer">Cadastre-se para receber nossa newsletter</p>
+        <input type="text" name="news" class="input-footer">
+        <button class="bt-footer">Cadastrar</button>
+      </div>
+      <div>
+        <p class="titulo">Categorias</p>
+        <p class="itens">Homens</p>
+        <p  class="itens">Mulheres</p>
+        <p  class="itens">Infantil</p>
+        <p  class="itens">Esportes</p>
+        <p  class="itens">Acessórios</p>
+      </div>
+      <div>
+        <p class="titulo">Ajuda</p>
+        <p  class="itens">Centro de ajuda</p>
+        <p  class="itens">Status da compra</p>
+        <p  class="itens">Devoluções e garantias</p>
+        <p  class="itens">nosso Contato</p>
+      </div>
+      <div>
+        <p class="titulo">Sobre nós</p>
+        <p  class="itens">Sobre Nós</p>
+        <p  class="itens">Trabalhe conosco</p>
+        <p  class="itens">Tecnologia e inovação</p>
+        <p  class="itens">Conhea nossa hitória</p>
+      </div>
+      </div>
+    </footer>
+    </main>
 </html>
