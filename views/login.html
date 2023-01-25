@@ -8,29 +8,49 @@
     <title>DH Sports</title>
 </head>
 <body>
+    <form>
     <div>
-     <h1>Já sou cadastrado</h1>
-     <input type="email" placeholder= "Endereço de email">
+     <h1 class="texto">Já sou cadastrado</h1>
+     <label id="email-log" for="email">E-mail:</label>
+     <input type="email" placeholder= "Endereço de email" required>
+     <span class="error-msg">Preencha o campo corretamente</span>
      <br><br>
-     <input type="password" placeholder="Senha">
+     <label id="psw" for="password">Senha:</label>
+     <input type="password" placeholder="Senha" required>
+     <span class="error-msg">Preencha o campo corretamente</span>
      <br><br>
-     <button>Enviar</button>
+     <button type="submit">Enviar</button>
      <br><br>
+     <a href=""></a>
      <h5>Esqueci minha senha</h5>
+    </a>
     </div>
+    </form>
+    <form>
      <div class="cadastro">
-        <h1>Não sou cadastrado</h1>
-        <input type="text" placeholder="Nome completo">
+        <h1 class="texto">Não sou cadastrado</h1>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" placeholder="Nome completo" required>
+        <span class="error-msg">Preencha o campo corretamente</span>
         <br><br>
-        <input type="email" placeholder="Email">
+        <label id="email-cad" for="email">E-mail:</label>
+        <input type="email" placeholder="Email" required>
+        <span class="error-msg">Preencha o campo corretamente</span>
         <br><br>
-        <input type="password" placeholder="Senha">
+        <label id="psw-cad" for="password">Senha:</label>
+        <input type="password" placeholder="Senha" required pattern="/^(?=.*[a-zA-Z])(?=.*[0-9])(?=.*[!@#$%*()_+^&}{:;?.])(?:([0-9a-zA-Z])(?!\1)|[!@#$%;*(){}_+^&]){6,}$/">
+        <span class="error-msg">Preencha o campo corretamente</span>
         <br><br>
-        <input type="password" placeholder="Confirmar senha">
+        <label id="psw-conf" for="password">Confirmar senha:</label>
+        <input type="password" placeholder="Confirmar senha" required pattern="/^(?=.*[a-zA-Z])(?=.*[0-9])(?=.*[!@#$%*()_+^&}{:;?.])(?:([0-9a-zA-Z])(?!\1)|[!@#$%;*(){}_+^&]){6,}$/">
+        <span class="error-msg">Preencha o campo corretamente</span>
         <br><br>
-        <input type="date" placeholder="Data de nascimento">
+        <label id="data" for="date">Data nascimento:</label>
+        <input type="date" placeholder="Data de nascimento" required>
+        <span class="error-msg">Preencha o campo corretamente</span>
         <br><br>
-        <button>Confirmar</button>
+        <button type="submit">Confirmar</button>
      </div>
+    </form>
 </body>
 </html>

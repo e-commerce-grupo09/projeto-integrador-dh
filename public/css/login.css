@@ -29,6 +29,7 @@ input{
     outline: none;
     font-size: 15px;
     width: 100%;
+    padding-bottom: 20px;
 }
 
 button{
@@ -64,4 +65,23 @@ body::before{
     filter: brightness(0.3);
     background-size: cover;
     z-index: -1;
+}
+
+.texto{
+    padding-bottom: 20px;
+}
+
+form input:invalid{
+    border: crimson 2px solid;
+    display: block;
+}
+
+form input:valid{
+    border: greenyellow 2px solid;
+}
+
+span .msg-error{
+    font-size: 14px;
+    display: none;
+    color: crimson;
 }
