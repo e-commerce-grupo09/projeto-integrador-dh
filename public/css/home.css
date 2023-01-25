@@ -25,7 +25,7 @@ main p {
     text-align: justify;
     font-weight: lighter;
     color: white;
-    padding-top: 100px;
+    /*padding-top: 100px;*/
 
 }
 main p.text {
